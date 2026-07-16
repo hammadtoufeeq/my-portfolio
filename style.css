@@ -254,8 +254,14 @@ header nav ul li a:hover {
     }
 
     /* Slightly less padding on mobile to save space */
+    /* Slightly less padding on mobile to save space */
     #projects article {
         padding: 25px; 
+    }
+
+    /* ADD THIS: Prevents the taller mobile header from covering your projects */
+    section {
+        scroll-margin-top: 140px !important;
     }
 
     /* Prevent contact info overflow */
